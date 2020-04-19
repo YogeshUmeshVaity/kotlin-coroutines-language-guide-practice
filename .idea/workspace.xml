@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7d52b872-456d-454b-bc9d-3264f7c6c44d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/FlowContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/FlowContext.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,23 +38,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlowContext.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="462">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
-                <element signature="e#0#112#0" expanded="true" />
+                <element signature="e#0#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlowMap.kt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlowOn.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+            <state relative-caret-position="717">
+              <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+              <folding>
+                <element signature="e#31#268#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,6 +155,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/FlowMap.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/Take.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/FlowContext.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/FlowOn.kt" />
       </list>
     </option>
   </component>
@@ -219,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.FlowContextKt">
+  <component name="RunManager" selected="Kotlin.FlowOnKt">
     <configuration name="FlowCancelKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CoroutinePractice.main" />
       <option name="VM_PARAMETERS" />
@@ -246,19 +251,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlowKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <module name="CoroutinePractice.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="FlowKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="FlowMapKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CoroutinePractice.main" />
       <option name="VM_PARAMETERS" />
@@ -267,6 +259,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="abc.anydiff123.flowmap.FlowMapKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FlowOnKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="CoroutinePractice.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="abc.anydiff123.flowOn.FlowOnKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FlowOnKt" />
         <item itemvalue="Kotlin.FlowContextKt" />
         <item itemvalue="Kotlin.TakeKt" />
         <item itemvalue="Kotlin.FlowMapKt" />
         <item itemvalue="Kotlin.FlowCancelKt" />
-        <item itemvalue="Kotlin.FlowKt" />
       </list>
     </recent_temporary>
   </component>
@@ -500,10 +505,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlowContext.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        <state relative-caret-position="462">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="e#0#112#0" expanded="true" />
+            <element signature="e#0#188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlowOn.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="717">
+          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <folding>
+            <element signature="e#31#268#0" expanded="true" />
           </folding>
         </state>
       </provider>
