@@ -14,7 +14,7 @@ fun fooConflate() = flow {
 }
 
 /**
- * conflate operator can used to skip the intermediate values, when the collector is slow to process the values.
+ * conflate operator can be used to skip the intermediate values, when the collector is slow to process the values.
  * Only most recent value that's emitted gets collected.
  */
 @ExperimentalCoroutinesApi
