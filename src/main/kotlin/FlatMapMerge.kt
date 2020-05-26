@@ -1,3 +1,5 @@
+package coroutines.practice.flatmapmerge
+
 import kotlinx.coroutines.FlowPreview
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
@@ -16,14 +18,14 @@ fun getDetails(id: Int) = flow<String> {
  * another Flow of values. In such cases you end up having Flow of Flow i.e. Flow<Flow<String>>.
  *
  * In this case you use flatMapConcat { } or flatMapMerge { } to flatten it to receive Flow<String>.
- * flatMapConcat { } waits for inner flow to complete before starting to collect the next one.
- * Here getDetails() is the inner Flow.
+ * flatMapMerge { } calls its block code(getDetails() in this example) sequentially but collects
+ * the resulting flows concurrently. So it operates faster than flatMapConcat { }.
  */
 @FlowPreview
 fun main() = runBlocking {
     val startTime = System.currentTimeMillis()
     (1..3).asFlow().onEach { delay(100) }
-        .flatMapConcat { getDetails(it) }
+        .flatMapMerge { getDetails(it) }
         .collect {
             println("$it in ${System.currentTimeMillis() - startTime} ms")
         }
