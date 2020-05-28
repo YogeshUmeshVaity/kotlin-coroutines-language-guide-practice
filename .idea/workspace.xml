@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d52b872-456d-454b-bc9d-3264f7c6c44d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d52b872-456d-454b-bc9d-3264f7c6c44d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/OnCompletion.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+            <state relative-caret-position="103">
+              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#42#164#0" expanded="true" />
               </folding>
@@ -340,12 +338,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" x="239" y="1109" width="1058" height="497" id="Run" order="2" type="FLOATING" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" x="239" y="1109" width="1058" height="497" id="Run" order="2" type="FLOATING" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" x="239" y="1607" width="1050" height="373" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.30569947" />
+      <window_info active="true" anchor="bottom" x="239" y="1607" width="1050" height="373" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.30569947" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3284974" />
       <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3284974" />
@@ -528,8 +526,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/OnCompletion.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="58" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
+        <state relative-caret-position="103">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
             <element signature="e#42#164#0" expanded="true" />
           </folding>

@@ -12,8 +12,8 @@ fun foo() = flow {
 /**
  * onCompletion is just like 'finally' in try/catch block. It's used for executing an action when
  * the flow collection completes. It can also be used to determine whether flow collection completed
- * normally or with exception as shown in this example. The onCompletion operator, unlike catch,
- * does not handle the exception.
+ * normally or with exception as shown in this example. if the cause is null then that means it
+ * completed normally. The onCompletion operator, unlike catch, does not handle the exception.
  */
 
 @ExperimentalCoroutinesApi
