@@ -5,7 +5,7 @@ import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.runBlocking
 
-fun getDetails(id: Int) = flow<String> {
+fun getDetails(id: Int) = flow {
     emit("first name $id")
     delay(500)
     emit("last name $id")
