@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d52b872-456d-454b-bc9d-3264f7c6c44d" name="Default Changelist" comment="" />
+    <list default="true" id="7d52b872-456d-454b-bc9d-3264f7c6c44d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -24,37 +26,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlatMapLatest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-              <folding>
-                <element signature="e#43#235#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/CatchOperator.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/OnCompletion.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="41" lean-forward="true" selection-end-line="1" />
+              <caret column="40" lean-forward="true" selection-end-column="40" />
               <folding>
-                <element signature="e#43#213#0" expanded="true" />
+                <element signature="e#42#164#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/OnCompletion.kt">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/ChannelFanOut.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+            <state relative-caret-position="833">
+              <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
               <folding>
-                <element signature="e#42#164#0" expanded="true" />
+                <element signature="e#44#207#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.5/a68cdca5ed8605778cb519e3f3b2c9ff8c896970/kotlinx-coroutines-core-1.3.5-sources.jar!/commonMain/channels/Produce.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -168,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/FlatMapMerge.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/CatchOperator.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/OnCompletion.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/ChannelFanOut.kt" />
       </list>
     </option>
   </component>
@@ -184,7 +184,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -215,6 +214,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +236,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.OnCompletionKt">
+  <component name="RunManager" selected="Kotlin.ChannelFanOutKt">
     <configuration name="CatchOperatorKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CoroutinePractice.main" />
       <option name="VM_PARAMETERS" />
@@ -250,14 +250,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlatMapConcatKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="ChannelFanOutKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="CoroutinePractice.main" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="FlatMapConcatKt" />
+      <option name="MAIN_CLASS_NAME" value="coroutines.practice.channel.fanout.ChannelFanOutKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -304,11 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ChannelFanOutKt" />
         <item itemvalue="Kotlin.OnCompletionKt" />
         <item itemvalue="Kotlin.CatchOperatorKt" />
         <item itemvalue="Kotlin.FlatMapLatestKt" />
         <item itemvalue="Kotlin.FlatMapMergeKt" />
-        <item itemvalue="Kotlin.FlatMapConcatKt" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,7 @@
     <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14643237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14802982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -338,15 +338,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" x="239" y="1109" width="1058" height="497" id="Run" order="2" type="FLOATING" visible="true" weight="0.32953367" />
+      <window_info active="true" anchor="bottom" x="239" y="1109" width="1058" height="497" id="Run" order="2" type="FLOATING" visible="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" x="239" y="1607" width="1050" height="373" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.30569947" />
+      <window_info anchor="bottom" x="239" y="1607" width="1050" height="373" id="Terminal" order="7" type="FLOATING" visible="true" weight="0.30569947" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32953367" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3284974" />
-      <window_info anchor="bottom" id="Build" order="10" visible="true" weight="0.3284974" />
+      <window_info anchor="bottom" id="Build" order="10" weight="0.3284974" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -449,6 +449,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlatMapLatest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+          <folding>
+            <element signature="e#43#235#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/CatchOperator.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="41" selection-end-line="1" />
+          <folding>
+            <element signature="e#43#213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlowMap.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="693">
@@ -504,32 +524,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/FlatMapLatest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="8" column="32" lean-forward="true" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding>
-            <element signature="e#43#235#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/CatchOperator.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" lean-forward="true" selection-end-line="1" />
-          <folding>
-            <element signature="e#43#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/OnCompletion.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="15" column="33" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
+        <state>
+          <caret column="40" lean-forward="true" selection-end-column="40" />
           <folding>
             <element signature="e#42#164#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/1.3.5/a68cdca5ed8605778cb519e3f3b2c9ff8c896970/kotlinx-coroutines-core-1.3.5-sources.jar!/commonMain/channels/Produce.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="89" column="30" selection-start-line="89" selection-start-column="30" selection-end-line="89" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/ChannelFanOut.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#44#207#0" expanded="true" />
           </folding>
         </state>
       </provider>
